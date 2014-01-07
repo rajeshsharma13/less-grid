@@ -1,4 +1,4 @@
-less-grid
+LessGrid
 =========
 
 LessGrid is a minimal and lightweight responsive UI framework for developers looking

@@ -28,6 +28,7 @@ body{
     padding: 0px 10px;
     max-width: 960px;
     border: 1px solid #ddd;
+	position:relative;
 }
 @media (max-width: 959px) {
   .content {
