@@ -1,0 +1,97 @@
+@import url(open-sans/stylesheet.css);
+body{
+    font-family: 'OpenSansRegular',sans-serif;
+	font-size:11px;
+}
+.demo-clear{
+    display: block;
+    margin-bottom: 55px;
+}
+.demo-title{
+    font-family: 'OpenSansItalic',sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    width: 70%;
+    margin: 0px auto;
+    display: block;
+    clear: both;
+    color: #999;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+.content{
+    margin: 75px auto;
+    background: #fff;
+    padding: 0px 10px;
+    max-width: 960px;
+    border: 1px solid #ddd;
+}
+@media (max-width: 959px) {
+  .content {
+    
+    width: 95%;
+  }
+}
+.row:after{
+        display:block;
+        float:none;
+        clear:both;
+        visibility: hidden;
+        content: ".";
+        height: 2px;
+}
+.demo .row>div[class*='span']{
+    background: #eee;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 45px;
+    overflow: hidden;
+}
+.demo .label{
+	text-shadow:none;
+	font-size:11px;
+	line-height:24px;
+}
+.demo .row>div[class*='span']:hover{
+    background: #555;
+    text-align: center;
+    border: 1px solid #333;
+    padding: 10px;
+    height: 45px;
+    overflow: hidden;
+	color:#fff;
+}
+.content>h3{
+    text-align: center;
+    line-height: 35px;
+}
+.typography-demo{
+    text-align: left!important;
+}
+body{
+}
+.demo-widget a{
+    text-decoration: none;
+}
+.demo-widget li{
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #dddddd;
+}
+.demo-widget a:hover,
+.demo-widget a:hover h5{
+    color: #777777;
+}
+.demo-image{
+    text-decoration: none;
+}
+.demo-image:hover{
+    color: #777777;
+    text-decoration: none;
+}
+#credits{
+    text-align: center;
+}

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LightGrid - minimalist responsive 12 col GridSystem!</title>
+        <link rel="stylesheet" type="text/css" href="css/lg.css"/>
+        <link rel="stylesheet" type="text/css" href="css/demo.css"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/lg.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="icon" type="image/png" href="img/favicon.png"/>
+    </head>
+    <body>
+        <section class="content">
+            <div class="grid navigation">
+                <div class="row">
+                    <a href="#" class="span3 logo"><img src="img/logo.png"/> <h2>Less Grid</h2></a>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu">
+
+                        </ul>
+                    </div>
+
+                    <ul class="menu span9">
+                        <li><a href="#grid-demo">Grid system</a></li>
+                        <li><a href="#btn-n-forms">Buttons and form elements</a></li>
+                        <li><a href="#typography-demo">Typography</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="demo-clear" id="grid-demo"></div>
+            <em class="demo-title">
+                LessGrid is a responsive 960px grid based CSS framework with improved buttons, forms and cross browser typography.
+            </em>
+            <h3>
+                <img src="img/logo-bw.png"/>12 Cols responsive</h3>
+            <div class="grid grid-12 demo">
+                <div class="row">
+                    <div class="span12">
+                        <span class="label">Span 12</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span1">
+                        <span class="label">Span 1</span>
+                    </div>
+                    <div class="span11">
+                        <span class="label">Span 11</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span2">
+                        <span class="label">Span 2</span>
+                    </div>
+                    <div class="span10">
+                        <span class="label">Span 10</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span3">
+                        <span class="label">span 3</span>
+                    </div>
+                    <div class="span9">
+                        <span class="label">span 9</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span4">
+                        <span class="label">Span 4</span>
+                    </div>
+                    <div class="span8">
+                        <span class="label">Span 9</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span5">
+                        <span class="label">Span 5</span>
+                    </div>
+                    <div class="span7">
+                        <span class="label">Span 7</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span6">
+                        <span class="label">Span 6</span>
+                    </div>
+                    <div class="span6">
+                        <span class="label">Span 6</span>
+                    </div>
+                </div>
+            </div>
+            <div class="demo-clear" id="btn-n-forms">&nbsp;</div>
+            <h3>
+                <img src="img/logo-bw.png"/>Button and Forms</h3>
+            <hr/>
+            <div class="grid-12">
+                <div class="row">
+                    <div class="span6">
+                        <button class="btn-primary btn">Primary button</button>
+                        <button class="btn-secondary btn">Secondary button</button>
+                        <br/>
+                        <button class="btn btn-small">Small button</button>
+                        <button class="btn">Normal button</button>
+                        <button class="btn btn-large">Large button</button>
+                        <br/>
+                        <button class="purple btn">Purple</button>
+                        <button class="orange btn">Orange</button>
+                        <button class="black btn">Black</button>
+                        <button class="red btn">Red</button>
+                        <br/>
+                    </div>
+                    <div class="span6">
+                        <form>
+                            <dl>
+                                <dt><label for="name">Text input</label></dt>
+                                <dd><input type="text" name="name" id="name" /></dd>
+                            </dl>
+                            <dl>
+                                <dt><label for="password">Password input</label></dt>
+                                <dd><input type="password" name="password" id="password" /></dd>
+                            </dl>
+                            <dl>
+                                <dt><label for="select">Select</label></dt>
+                                <dd><select name="select" id="select">
+                                        <option selected="selected" value="0">Please select one..</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select></dd>
+                            </dl>
+                            <dl>
+                                <dt><label for="radio">Radio input</label></dt>
+                                <dd><input type="radio" name="name" id="radio"  /><span>Radio 1</span><input type="radio" name="name"  /><span>Radio 2</span></dd>
+                            </dl>
+                            <dl>
+                                <dt><label for="checkbox">Checkbox input</label></dt>
+                                <dd><input type="checkbox" name="name"  id="checkbox" /><span>Radio 1</span><input type="checkbox" name="name"  /><span>Radio 2</span></dd>
+                            </dl>
+                            <hr/>
+                            <p>
+                                <input type="submit" value="Submit" class="btn btn-small btn-primary" style="margin-right:10px; " /><input type="reset" value="Cancel" class="btn btn-small btn-secondary" />
+                            </p>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="demo-clear" id="typography-demo">&nbsp;</div>
+            <h3 ><img src="img/logo-bw.png"/>Typography</h3>
+            <hr/>
+            <div class="grid grid-12">
+                <div class="row">
+                    <div class="span9 typography-demo">
+                        <h3>Images</h3>
+                        <a href="#" class="demo-image">
+                        <img src="img/mountains.jpg" alt="sample image"/>
+                        <blockquote>
+                            <p>This image is larger than grid its in, but the image should fit nicely!</p>
+                        </blockquote>
+                        </a>
+                        <h3>Youtube video</h3>
+                        <iframe width="860" height="415" src="//www.youtube.com/embed/yWqG8ysc3BE" frameborder="0" allowfullscreen></iframe>
+                        <blockquote>
+                            <p>This video is larger than grid its in, but the video should fit nicely!</p>
+                        </blockquote>
+                        <div>
+                            <h1>Level 01 Heading </h1>
+
+                            <h2>Level 02 Heading </h2>
+                            <h3>Level 03 Heading</h3>
+                            <h4>Level 04 Heading</h4>
+                            <h5>Level 05 Heading</h5>
+                            <h6>Level 06 Heading</h6>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce sodales ligula sed urna. Aliquam posuere arcu viverra erat. Pellentesque et enim dapibus ante facilisis bibendum. Nam congue dapibus urna. Vestibulum consequat arcu at magna. Nunc faucibus mollis lacus. Nulla tempor luctus tellus. Donec blandit lobortis pede. Vestibulum vel pede ut urna eleifend lacinia. </p>
+
+                        <p>
+                            Maecenas ligula nibh, imperdiet at, interdum eget, sagittis eu, enim. Vivamus vel urna. Donec fringilla ullamcorper sem. In risus arcu, pellentesque cursus, faucibus cursus, consequat quis, est. Aliquam id erat. Aliquam arcu. Phasellus vulputate. Integer sem diam, mattis vel, viverra ullamcorper, ultricies quis, nisl. Sed sollicitudin quam ut nisi. Vivamus velit sapien, volutpat eu, faucibus id, nonummy id, urna.
+                        </p>
+
+                        <p>
+                            Praesent iaculis pellentesque est. Nulla facilisi. Etiam fringilla vehicula orci. Aliquam fermentum ipsum id nulla. Aliquam interdum laoreet leo. Cras accumsan. Nam pharetra diam id nunc. Integer blandit tellus vulputate felis. Cras aliquam, eros in euismod aliquam, enim nisl mollis metus, quis fringilla ipsum diam ut pede. Mauris a libero ac velit interdum pulvinar. Nunc ipsum mauris, semper rhoncus, feugiat ut, egestas id, diam. Nullam porttitor condimentum risus. Vivamus nec enim eget nisi commodo euismod. Ut turpis. Nullam malesuada rutrum neque. Nam sodales porta elit. Mauris mollis nisl vel augue.
+                        </p>
+
+                        <h3>Unordered lists</h3>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Consectetur adipisicing elit</li>
+                            <li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+                            <li>Ut enim ad minim veniam</li>
+                        </ul>
+                        <h3>Ordered lists</h3>
+                        <ol>
+                            <li>Consectetur adipisicing elit</li>
+                            <li>Sed do eiusmod tempor incididunt ut labore</li>
+                            <li>Et dolore magna aliqua</li>
+                        </ol>
+
+
+                        <h3>Ordered list</h3>
+                        <ol>
+                            <li>List item</li>
+                            <li>List item</li>
+                            <li>List item
+                                <ol>
+                                    <li>List item level 2</li>
+                                    <li>List item level 2
+                                        <ol>
+                                            <li>List item level 3</li>
+                                            <li>List item level 3</li>
+                                        </ol>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>						
+                        <h3>Unordered list</h3>
+                        <ul>
+                            <li>List item 01</li>
+                            <li>List item 02</li>
+                            <li>List item 03
+                                <ul>
+                                    <li>List item level 2</li>
+                                    <li>List item level 2
+                                        <ul>
+                                            <li>List item level 3</li>
+                                            <li>List item level 3</li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <h3>Blockquotes</h3>
+
+                        <blockquote>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </blockquote>
+
+                        <h4>Tables</h3>
+                            <table summary="Jimi Hendrix albums">
+                                <caption>Jimi Hendrix - albums</caption>
+                                <thead>
+                                    <tr>
+                                        <th>Album</th>
+                                        <th>Year</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+                                <tfoot>
+                                    <tr>
+                                        <td>Album</td>
+                                        <td>Year</td>
+                                        <td>Price</td>
+                                    </tr>
+                                </tfoot>
+                                <tbody>
+                                    <tr>
+                                        <td>Are You Experienced </td>
+                                        <td>1967</td>
+                                        <td>$10.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Axis: Bold as Love</td>
+                                        <td>1967</td>
+                                        <td>$12.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Electric Ladyland</td>
+                                        <td>1968</td>
+                                        <td>$10.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Band of Gypsys</td>
+                                        <td>1970</td>
+                                        <td>$12.00</td>
+                                    </tr>
+                                <tbody>
+                            </table>
+                            <p>
+                                <a href="#">Link</a><br>
+                                <strong>&lt;strong&gt;</strong><br>
+                                <del>&lt;del&gt; deleted</del><br>
+                                <dfn>&lt;dfn&gt; dfn</dfn><br>
+                                <em>&lt;em&gt; emphasis</em>
+                            </p>
+                            <pre>
+<code>&lt;html&gt;</code>
+	<code>&lt;head&gt;</code>
+	<code>&lt;/head&gt;</code>
+	<code>&lt;body&gt;</code>
+	<code>&lt;div class = "main"&gt; &lt;div&gt;</code>
+	<code>&lt;/body&gt;</code>
+<code>&lt;/html&gt; </code>
+                            </pre>
+
+
+                    </div>
+                    <div class="span3">
+                        <h3>Recomended articles</h3>
+                        <ul class="demo-widget">
+                            <li>
+                                <a href="#">
+                                    <img src="img/city1.jpg"/>
+                                    <h5>Lorem ipsum dolor sit amet</h5>
+                                    <p>consectetur adipisicing elit, sed do eiusmod tempor incididunt..</p>
+                                </a>
+                                </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/city2.jpg"/>
+                                    <h5>Lorem ipsum dolor sit amet</h5>
+                                    <p>consectetur adipisicing elit, sed do eiusmod tempor incididunt..</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/city3.jpg"/>
+                                    <h5>Lorem ipsum dolor sit amet</h5>
+                                    <p>consectetur adipisicing elit, sed do eiusmod tempor incididunt..</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="demo-clear" id="typography-demo">&nbsp;</div>
+            <h3 ><img src="img/logo-bw.png"/>Thank you</h3>
+            <hr/>
+            <div class="grid grid-12">
+                <div class="row">
+                    <div class="span12" id="credits">
+                        <ul class="credits">
+                            <li> Thanks to flickr users
+                                <a href="http://www.flickr.com/photos/sanchom/5038503070/">Sancho McCann</a>,
+                                <a href="http://www.flickr.com/photos/tomas_sobek/7412821306/">Tomas Sobek</a>,
+                                <a href="http://www.flickr.com/photos/paytonc/1609031661/">Payton Chung </a> and
+                                <a href="http://www.flickr.com/photos/96315723@N04/9239397880/">Steve Wilson </a>
+                                for images in this demo.
+                            </li>
+                            <li>
+                                Thanks to <a href="http://all-free-download.com/free-vector/vector-misc/feather_color_vector_162514.html">all-free-download.com</a> for feather vector logo.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
